@@ -23,8 +23,6 @@ const Posts = () => {
                 return <PostCard key={post.post_id} post={post} />;
               })
           : "no posts available"}
-        {/* <a className="flex justify-end pr-10 border border-gray-500 ">View More</a> */}
-        {/* <button className="flex justify-end border rounded-md border-black ">View More</button> */}
       </div>
       <ul className="flex space-x-4 justify-end">
         <li>1</li>
